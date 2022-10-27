@@ -1,0 +1,165 @@
+.appointment-bg {
+  background-image: url(../../assets/images/bookbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.appointment-items {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.appointment-desc {
+  padding-top: 4rem;
+  padding-left: 1rem;
+}
+.appointment-span span {
+  max-width: 79px;
+  height: 19px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 106.5%;
+  /* or 19px */
+  color: #fbb034;
+}
+.appointment-head h1 {
+  max-width: 586px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 94.5%;
+  padding-top: 1rem;
+  /* or 45px */
+
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+.appointment-para {
+  max-width: 339px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 94.5%;
+  /* or 19px */
+
+  color: #b8b8b8;
+  margin-bottom: 3.5rem;
+}
+.app-btn {
+  padding: 18px 53px;
+  gap: 10px;
+  position: absolute;
+  width: 251px;
+  height: 52px;
+  background: #fbb034;
+}
+.app-btn button {
+  background: none;
+  border: none;
+  width: 145px;
+  height: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 106.5%;
+  /* identical to box height, or 16px */
+
+  color: #ffffff;
+}
+.contact-card {
+  padding-top: 4.5rem;
+}
+.appointment-call {
+  width: 340px;
+  height: 293px;
+  background: #ffffff;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  text-align: center;
+}
+/* .call-icon {
+  width: 100px;
+  height: 100px;
+  background: #e8e8e8;
+  border-radius: 50%;
+  position: relative;
+  left: 5rem;
+  margin-bottom: 0.5rem;
+} */
+/* .call-icon img {
+  position: relative;
+  top: 1.6rem;
+} */
+.contact-text {
+  width: 90px;
+  height: 19px;
+  left: 1044px;
+  top: 1793px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 94.5%;
+  /* identical to box height, or 19px */
+
+  color: #b8b8b8;
+}
+.cell {
+  width: 161px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 94.5%;
+  /* identical to box height, or 23px */
+
+  color: #000000;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 380px) and (max-width: 800px) {
+  .appointment-bg {
+    margin-top: 3rem;
+  }
+  .appointment-items {
+    flex-wrap: wrap;
+    padding-top: 4rem;
+  }
+  .appointment-desc {
+    padding-top: 4rem;
+  }
+  .appointment-head h1 {
+    font-size: 1.7rem;
+  }
+  .appointment-para p {
+    font-size: 1rem;
+  }
+  .appointment-call {
+    height: 160px;
+    width: 280px;
+  }
+  .contact-text {
+    font-size: 1.3rem;
+    padding-left: 3rem;
+  }
+  .cell {
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+  .appointment-call {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+  }
+  .call-icon {
+    background: none;
+  }
+}

@@ -1,0 +1,127 @@
+.main-Hero {
+  background-color: rgba(0, 0, 0, 1);
+}
+.Hero-items {
+  display: flex;
+  justify-content: space-between;
+}
+.Hero-desc {
+  margin-top: 180px;
+  margin-left: 115px;
+  display: flex;
+  flex-direction: column;
+}
+.Hero-desc span {
+  max-width: 155px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 106.5%;
+  /* identical to box height, or 17px */
+  color: #fbb034;
+}
+
+.Hero-desc h2 {
+  max-width: 513px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 94.5%;
+  /* or 45px */
+  color: #ffffff;
+  margin-top: 24px;
+}
+.Hero-desc p {
+  margin-top: 24px;
+  max-width: 389px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 106.5%;
+  /* or 22px */
+
+  color: #9a9a9a;
+}
+.Hero-img img {
+  margin-top: 45px;
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  gap: 2.9rem;
+  flex-wrap: wrap;
+  margin-top: 98px;
+}
+
+.Hero-btn {
+  padding: 18px 53px;
+  gap: 10px;
+  width: 182px;
+  height: 52px;
+  background: #fbb034;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.Hero-btn button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 106.5%;
+  /* identical to box height, or 16px */
+
+  color: #000000;
+  border: none;
+  background: none;
+}
+.Hero-btn:hover,
+.butn:hover {
+  color: #fbb034;
+  transform: scale(1.5);
+}
+.butn {
+  box-sizing: border-box;
+  width: 182px;
+  height: 53px;
+  border: 1px solid #ffffff;
+  transition: transform 0.2s;
+}
+.butn button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 106.5%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  /* identical to box height, or 16px */
+
+  color: #ffffff;
+  background: none;
+  border: none;
+}
+
+/* media Queries */
+
+@media screen and (max-width: 768px) {
+  .Hero-items {
+    flex-wrap: wrap;
+  }
+  .Hero-img img {
+    margin-top: 45px;
+    width: 100%;
+  }
+  .Hero-desc h2 {
+    font-size: 1.5rem;
+  }
+  .Hero-desc p {
+    font-size: 1rem;
+  }
+  .btn {
+    flex-direction: column;
+  }
+}

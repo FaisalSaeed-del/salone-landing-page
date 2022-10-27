@@ -1,0 +1,102 @@
+.working-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  min-width: 1134px;
+  overflow: hidden;
+}
+.working-img {
+  max-width: 100%;
+}
+.work-desc {
+  background-color: #fbb034;
+  width: 560px;
+  height: 393px;
+}
+.work-text h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  padding-top: 2.2rem;
+  padding-left: 6rem;
+  z-index: -1;
+}
+.work-text h1 {
+  text-transform: uppercase;
+  position: absolute;
+  width: 300px;
+  height: 68px;
+  left: 800px;
+  top: 2143px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  color: rgba(236, 236, 236, 0.1);
+}
+.work-span span {
+  max-width: 294px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 4.8rem;
+}
+.work-day span {
+  max-width: 68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 94.5%;
+  /* or 15px */
+  color: #ffffff;
+}
+
+.work-timings {
+  padding-top: 4rem;
+}
+
+.work-period {
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+  width: 100%;
+}
+.work-period2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+  margin-top: 40px;
+}
+.working-border {
+  border-bottom: 2px dotted black;
+  width: 440px;
+  margin-left: 3.7rem;
+}
+.work-btn {
+  box-sizing: border-box;
+  width: 166px;
+  height: 39px;
+  border: 1px solid #000000;
+}
+.work-btn button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  background: none;
+  border: none;
+  /* padding-left: 16px; */
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.main-btn {
+  padding-top: 30px;
+  padding-left: 80px;
+}
