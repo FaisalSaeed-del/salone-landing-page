@@ -1,0 +1,124 @@
+.main-testimonial {
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+}
+.testimonial-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 106px;
+}
+
+.testimonial-span span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 106.5%;
+  width: 91px;
+
+  color: #fbb034;
+}
+.testimonial-head h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 94.5%;
+  /* or 45px */
+  width: 419px;
+
+  color: #000000;
+}
+.testimonail-para p {
+  width: 401px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 106.5%;
+  color: #ababab;
+}
+.testimonial-btn {
+  padding: 18px 53px;
+  width: 208px;
+  height: 52px;
+  background: #fbb034;
+}
+.testimonial-btn button {
+  border: none;
+  background: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 106.5%;
+  color: #000000;
+}
+/* Client */
+
+.main-clients {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 106px;
+  max-width: 100%;
+}
+
+.client1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 285px;
+  background-color: #ffffff;
+  box-shadow: 9px 25px 10px rgba(0, 0, 0, 0.01),
+    5px 14px 9px rgba(0, 0, 0, 0.05), 2px 6px 6px rgba(0, 0, 0, 0.09),
+    1px 2px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.client-para p {
+  width: 256px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 106.5%;
+  margin-top: 22px;
+
+  color: #c2c2c2;
+}
+.client-icon span {
+  padding: 5px;
+  color: yellow;
+}
+.client-icon {
+  padding-top: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .main-testimonial {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 767px) {
+  .main-clients {
+    flex-direction: column;
+  }
+  .main-testimonial {
+    flex-wrap: wrap;
+  }
+  .testimonial-head h1 {
+    font-size: 30px;
+  }
+  .testimonial-items {
+    text-align: center;
+    justify-content: center;
+  }
+  .testimonial-btn {
+    margin: auto;
+  }
+}
