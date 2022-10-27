@@ -13,7 +13,7 @@ const Workingday = () => {
             </div>
             <div className="work-desc">
               <div className="work-text">
-                <h1>working</h1>
+                {/* <h1>working</h1> */}
                 <h2>WORKING DAYS</h2>
               </div>
               <div className="work-span">

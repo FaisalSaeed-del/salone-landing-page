@@ -2,11 +2,10 @@
   display: flex;
   justify-content: center;
   padding-top: 7rem;
-  min-width: 1134px;
   overflow: hidden;
 }
-.working-img {
-  max-width: 100%;
+.working-img img {
+  width: 100%;
 }
 .work-desc {
   background-color: #fbb034;
@@ -21,21 +20,7 @@
   color: #ffffff;
   padding-top: 2.2rem;
   padding-left: 6rem;
-  z-index: -1;
-}
-.work-text h1 {
-  text-transform: uppercase;
-  position: absolute;
-  width: 300px;
-  height: 68px;
-  left: 800px;
-  top: 2143px;
-
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  color: rgba(236, 236, 236, 0.1);
+  /* z-index: -1; */
 }
 .work-span span {
   max-width: 294px;
@@ -65,7 +50,7 @@
   display: flex;
   justify-content: space-around;
   gap: 10rem;
-  width: 100%;
+  /* width: 100%; */
 }
 .work-period2 {
   display: flex;
@@ -75,8 +60,8 @@
 }
 .working-border {
   border-bottom: 2px dotted black;
-  width: 440px;
-  margin-left: 3.7rem;
+  width: 420px;
+  margin: auto;
 }
 .work-btn {
   box-sizing: border-box;
@@ -99,4 +84,16 @@
 .main-btn {
   padding-top: 30px;
   padding-left: 80px;
+}
+
+@media screen and (min-width: 380px) and (max-width: 992px) {
+  .working-container {
+    flex-direction: column;
+  }
+  .work-desc {
+    width: 100%;
+  }
+  .working-border {
+    display: none;
+  }
 }
