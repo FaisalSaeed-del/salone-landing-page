@@ -1,6 +1,8 @@
 import "./App.css";
 import About from "./components/about/About";
+import Affiliate from "./components/affiliates/Affiliate";
 import Appointment from "./components/appointment/Appointment";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Services from "./components/services/Services";
@@ -17,6 +19,8 @@ function App() {
       <Workingday />
       <Testimonial />
       <Services />
+      <Affiliate />
+      <Footer />
     </div>
   );
 }

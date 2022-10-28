@@ -1,0 +1,57 @@
+.aff-bg {
+  background-image: url(../../assets/images/aff.png);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  /* background-size: 100% 100%; */
+}
+.aff-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 145px;
+  justify-content: center;
+  align-items: center;
+}
+.aff-span span {
+  width: 58px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 106.5%;
+  /* or 19px */
+
+  color: #fbb034;
+}
+.aff-head h1 {
+  max-width: 566px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 40px;
+  /* or 34px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.aff-btn {
+  width: 208px;
+  height: 51px;
+  box-sizing: border-box;
+  border: 1px solid #fbb034;
+  margin-bottom: 140px;
+}
+.aff-btn button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fbb034;
+  background: none;
+  border: none;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+}
